@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_covid19_extcb/constants.dart';
 import 'package:flutter_covid19_extcb/widgets/my_header.dart';
-
+import 'covidcoming.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'tracker.dart';
 
 class ComingPage extends StatefulWidget {
   @override
@@ -244,7 +243,7 @@ class _ComingPageState extends State<ComingPage> {
                                         Navigator.push(
                                           context,
                                           MaterialPageRoute(
-                                              builder: (context) => Tracker()),
+                                              builder: (context) => MyApp()),
                                         );
                                       },
                                     )),

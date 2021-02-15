@@ -24,13 +24,12 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
-  http: ^0.12.2
-  shimmer: ^1.1.1
-  flutter_typeahead: ^1.8.7
-  timeago: ^2.0.26
-  charts_flutter: ^0.9.0
-  google_fonts: ^1.1.0
-  url_launcher: ^5.7.10
+  google_fonts: 
+  url_launcher:
+  shared_preferences:
+  http:
+  dynamic_theme:
+  pie_chart:
 
   
 
